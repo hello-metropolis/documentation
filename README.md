@@ -29,8 +29,8 @@ Once you understand the platform, the documentation below will help guide you in
 * **Runtime Engine**
   *  **[Google Cloud Platform - CloudBuild](runtime-engine/gcp/cloudbuild.md)**
 * **Notification Engine**
-  * **[GitHub Deployment API](notification-engine/github.md)
+  * **[GitHub Deployment API](notification-engine/github.md)**
 * **Infrastructure-as-Code**
-  * **[Terraform](iac/terraform.md)
+  * **[Terraform](iac/terraform.md)**
 * **API**
-  * **[API Documentation](rest/api.md)
+  * **[API Documentation](rest/api.md)**
