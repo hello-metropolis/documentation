@@ -22,7 +22,7 @@ Once you understand the platform, the documentation below will help guide you in
 
 ### Quickstart
 
-**[Quickstart Guide](http://github.com/hello-metropolis/quick-start)** will get you up and running quickly.
+**[Quickstart Guide](https://github.com/hello-metropolis/quickstart)** will get you up and running quickly.
 
 ### Platform Documentation
 
