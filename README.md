@@ -34,4 +34,4 @@ Once you understand the platform, the documentation below will help guide you in
   * **[Terraform](iac/terraform.md)**
 * **API**
   * **[API Documentation](rest/api.md)**
-* **[Metropolis Utils](#)**
+* **[Metropolis Utils](https://github.com/hello-metropolis/metropolis-utils)**
