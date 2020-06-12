@@ -9,7 +9,7 @@ The Metropolis REST API requires you pass a JWT token to authenticate.
 
 This example will use the following values as example `public` and `private` keys, but you should replace them with your own keys.
 
-
+| attribute  | value  |
 |---|---|
 | Example Public Key  | `03c69016`  |
 | Example Private Key  | `ab86e391`  |
@@ -82,7 +82,7 @@ However, if there are event links registered relevant actions will be applied to
 
 `POST /api/trigger_events`
 
-|   |   |
+| **field** | **description** |
 |---|---|
 | ref | The branch or tag ref that triggered the workflow run.  This is a value that `git checkout` will respect. |
 | branch | The branch or tag that triggered the workflow run. |
