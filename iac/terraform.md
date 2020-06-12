@@ -12,8 +12,8 @@ The Metropolis provider is used to deploy sandbox environments. The provider nee
 provider "metropolis" {
   host        = "http://hellometropolis.com"
 
-  public_key  = var.metropolis_public_key
-  private_key = var.metropolis_private_key
+  public_key  = "03c69016"
+  private_key = "ab86e391"
 }
 ```
 
@@ -33,7 +33,7 @@ A workspace is a collection of metropolis resources for the same type of environ
 
 **Example Usage**
 
-```
+```terraform
 resource "metropolis_workspace" "primary" {
   name = "Metropolis Quickstart"
   note = "Workspace for the metropolis quickstart application"
@@ -53,7 +53,7 @@ See documentation for `metropolis_component` to learn how to reference these val
 
 **Example Usage**
 
-```
+```terraform
 resource "metropolis_asset" "metropolis_asset_database_private_ip" {
   name  = "DATABASE_PRIVATE_IP"
   value = "123.45.67.8"
@@ -77,7 +77,7 @@ Your infrastructure can be built up of many of these components and each should 
 
 **Example Usage**
 
-```
+```terraform
 resource "metropolis_component" "helm_releases" {
   name              = "helm-deployments"
   container_name    = "gcr.io/cloud-builders/gcloud"
@@ -157,7 +157,7 @@ It `depends_on` all assets that are used within the components.  It can contain 
 
 **Example Usage**
 
-```
+```terraform
 resource "metropolis_composition" "primary" {
   name              = "Sandbox"
   workspace_id      = metropolis_workspace.primary.id
@@ -207,7 +207,7 @@ A deployment is an instance of a sandbox that is created from a composition.  It
 
 **Example Usage**
 
-```
+```terraform
 resource "metropolis_deployment" "master" {
   name           = "master"
   composition_id = metropolis_composition.primary.id
