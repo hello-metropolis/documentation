@@ -1,9 +1,8 @@
 # Metropolis
-## REST API
 
-### Authentication
+## Authentication
 
-#### Bearer Token
+### Bearer Token
 
 The Metropolis REST API requires you pass a JWT token to authenticate.  
 
@@ -54,7 +53,7 @@ This token will be used as the `Bearer Token` in API requests.
 
 You can use [JWT.io](https://jwt.io/) to test your implementation or use any JWT library to generate a token to use.
 
-#### Headers
+### Headers
 
 Each API request should include the HTTP Header `Authorization: Bearer BEARER_TOKEN` and replace the `BEARER_TOKEN` value with your generated token.
 
@@ -74,13 +73,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1OTE5OTE5O
 
 
 
-#### Trigger Events
+### Trigger Events
 
 Trigger events can be registered with Metropolis server.  If there are no actions to take (`event_links` that are keyed off the event) the event will be stored in the database, but no updates to sandboxes will happen.
 
 However, if there are event links registered relevant actions will be applied to either the deployment or composition.
 
-`POST /api/trigger_events`
+#### `POST /api/trigger_events`
 
 | **field** | **description** |
 |---|---|
