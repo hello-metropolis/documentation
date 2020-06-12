@@ -8,7 +8,7 @@
 
 The Metropolis provider is used to deploy sandbox environments. The provider needs to be configured with the proper credentials before it can be used.
 
-```
+```terraform
 provider "metropolis" {
   host        = "http://hellometropolis.com"
 
