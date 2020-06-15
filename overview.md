@@ -1,2 +1,0 @@
-# Metropolis
-## Overview

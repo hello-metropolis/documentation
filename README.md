@@ -4,17 +4,15 @@ Metropolis provides a hub for managing sandbox environments using  infrastructur
 
 It provides a web front-end, APIs and terraform plugins to allow the easy configuration, management and maintenance of these sandbox environments.
 
-## Suggestion
-
-If you're learning the Metropolis platform for the first time, it is our suggestion to review the overview documentation first, followed by the quickstart guide.
-
-Once you understand the platform, the documentation below will help guide you in your implementation and configuration.
+> If you're learning the Metropolis platform for the first time, review the [overview documentation](/overview) first, followed by the [quickstart](https://github.com/hello-metropolis/quickstart) guide.
+>
+> Once you understand the platform, the documentation below will help guide you in your implementation and configuration.
 
 ## Documentation
 
 ### Overview
 
-**[Overview](overview.md)** of the Metropolis platform.  This section will:
+**[Overview](/overview)** of the Metropolis platform.  This section will:
 
 * Show you exactly how Metropolis is different from the status quo
 * Help you understand why the specific benefits and drawbacks of this approach compared with alternatives.
