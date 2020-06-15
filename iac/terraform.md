@@ -133,9 +133,11 @@ resource "metropolis_component" "helm_releases" {
 
 Each sandbox deployment will have some properties that vary instance to instance.
 
-One example is that a workspace may have many different sandboxes, but `SANDBOX_ID` is a placeholder value you can use to reference the specific sandbox.  Substitution for `$_METROPOLIS_PLACEHOLDER.SANDBOX_ID` will be replace with the sandbox name.  
+One example is that a workspace may have many different sandboxes, but `METROPOLIS_SANDBOX_ID` is a placeholder value you can use to reference the specific sandbox.  Substitution for `$_METROPOLIS_PLACEHOLDER.METROPOLIS_SANDBOX_ID` will be replace with the sandbox name.  
 
 _Example:_ for a Sandbox with the id of `feature-123` the command `helm install frontend-$_METROPOLIS_PLACEHOLDER.SANDBOX_ID` will evaluate to `helm install frontend-feature-123` in the runtime engine.
+
+Metropolis allows both built-in placeholders and custom placeholders.  Built-in placeholders are prefixed with `METROPOLIS_` and are documented [here](/data_model.md).
 
 **Assets**
 
@@ -220,11 +222,6 @@ resource "metropolis_deployment" "master" {
 
   placeholder {
     name  = "SANDBOX_ID"
-    value = "master"
-  }
-
-  placeholder {
-    name  = "METROPOLIS_BRANCH"
     value = "master"
   }
 
