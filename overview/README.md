@@ -11,7 +11,7 @@
 
 These videos will help you understand what the Metropolis platform does, benefits to this approach and exactly how to provision sandbox environments extremely easily using Metropolis.  Get started by watching this video, and then continue watching the videos down below, to learn more in depth.
 
-[![0 – Metropolis Overview](overview-3.png)](https://youtu.be/f7lFntqWnmc)
+[![0 – Metropolis Overview](overview-3.png)](https://youtu.be/tW_Z9MwikL4)
 
 ## [Next Video: 1 – Metropolis Overview: Quickstart Demo](/overview/1.md)
 
