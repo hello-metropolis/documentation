@@ -12,11 +12,13 @@ It provides a web front-end, APIs and terraform plugins to allow the easy config
 
 ### Overview
 
-**[Overview](/overview)** of the Metropolis platform.  This section will:
+**[Overview](https://github.com/hello-metropolis/documentation/tree/master/overview#metropolis-overview)** of the Metropolis platform.  This section will:
 
-* Show you exactly how Metropolis is different from the status quo
-* Help you understand why the specific benefits and drawbacks of this approach compared with alternatives.
-* Cover concepts that you will need to learn to create your first implementation.
+* Give an overview of approaches to building sandbox environments.
+* Walk you through the workflow you can use to build and test features in an end-to-end environment.
+* Discuss traditional approaches to implementing a workflow like this.
+* Walk you through a new way of implementing this using the Metropolis platform and paradigms.
+* Explain the next steps to get started.
 
 ### Quickstart
 
